@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Validating Web Forms</h1>
+    </div>
+    <div class="first">
+        <label for="">First Name</label>
+        <input type="text" name="" onkeyup="valid()" id="fname">
+        <p id="ferr" class="err"></p>
+    </div>
+    <div class="last">
+        <label for="">last Name</label>
+        <input type="text" name="" onkeyup="valid()" id="lastname">
+        <p id="lerr" class="err"></p>
+    </div>
+    <div class="email">
+        <label for="">Email</label>
+        <input type="email" name="" onkeyup="valid()" id="emai">
+        <p id="eerr" class="err"></p>
+    </div>
+    <div class="Password">
+        <label for="">Password</label>
+        <input type="Password" name="" onkeyup="valid()" id="pswd" >
+        <p id="perr" class="err"></p>
+    </div>
+    <div class="Tele">
+        <label for="">Telephone</label>
+        <input type="number" name="" onkeyup="valid()" id="mnumb" >
+        <p id="terr" class="err" ></p>
+    </div>
+    <div class="bio">
+        <label for="">Your bio</label>
+        <input type="text" name="" onkeyup="valid()" id="bios" >
+        <p id="berr" class="err"></p>
+    </div>
+    <div class="submit">
+        <p id="empty" ></p>
+        <button onclick="mysubmit()">Submit</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

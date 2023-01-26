@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px ;
+}
+.first,.last,.email,.Password,.Tele,.bio,.submit{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35%;
+    gap: 10px;
+    padding-top: 10px;
+    font-size: larger;
+}
+input{
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+}
+.err{
+    color: #ffbd52;
+    font-weight: bold;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
